@@ -1,4 +1,6 @@
-
+body {
+  background-color: #777;
+}
 
 .container {
   margin: auto;
@@ -14,49 +16,65 @@
 }
 
 header {
+  margin-left: 150px;
+  margin-right: auto;
+  margin-bottom: 10px;
   background-color: #ebebeb;
   color: #777;
   text-align: center;
-  width: 960px;
+  width: 760px;
   height: 40px;
   padding: 10px;
   border: 1px solid white;
 }
 
 nav {
+  margin-left: 150px;
+  margin-right: auto;
+  margin-bottom: 10px;
   background-color: #ebebeb;
   color: #777;
   text-align: center;
-  width: 960px;
+  width: 760px;
   height: 40px;
   padding: 10px;
   border: 1px solid white;
 }
 aside {
+  margin-left: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
   background-color:#ebebeb;
   color: #777;
   text-align: center;
-  width: 470px;
-  height: 400px;
+  width: 365px;
+  height: 300px;
   padding: 10px;
   border: 1px solid white;
 }
 
 section {
+  margin-left: 150px;
+  margin-right: auto;
+  margin-bottom: 10px;
   background-color: #ebebeb;
   color: #777;
   text-align: center;
-  width: 470px;
-  height: 400px;
+  width: 365px;
+  height: 300px;
   padding: 10px;
   border: 1px solid white;
 }
 
+
 footer {
+  margin-left: 150px;
+  margin-right: auto;
+  margin-bottom: 10px;
   background-color: #ebebeb;
   color:#777;
   text-align: center;
-  width: 960px;
+  width: 760px;
   height: 40px;
   padding: 10px;
   border: 1px solid white;
@@ -80,3 +98,4 @@ section {
 footer{
     float: left;
 }
+
