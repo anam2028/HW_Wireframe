@@ -1,30 +1,83 @@
-<!-- HTML Bio with CSS -->
 <!DOCTYPE html>
 
 <head>
-  <title>Assignment-2</title>
-
-  <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
 <body>
-  <header>
-    <h1>Your Name</h1>
-  </header>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Your Name</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+    </nav>
+    <!--Grid Layout-->
+    <div class="container">
+        <!--First Row-->
+        <div class="row">
+            <div class="col-md-8">
+                <h1>Portfolio</h1>
+            </div>
+            <!--Second Row-->
+            <div class="row2">
+                <div class="col-md-4">
+                    <img src="pug.jpg" class="card-img">
+                    <div class="caption">
+                        <p class="text">Word Guess</p>
+                </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="pug.jpg" class="card-img">
+                    <div class="caption">
+                        <p class="text">RPG GAME</p>
+                    </div>
+                </div>
+                </div>
+            <br>
+            <!--Third Row-->
+            <div class="row3">
+                <div class="col-sm-4">
+                    <img src="pug.jpg" class="card-img">
+                    <div class="caption">
+                        <p class="text">Trivia GAME</p>
+                    </div>
+                </div>
+                <br>
+                <div class="col-sm-4">
+                    <img src="pug.jpg" class="card-img">
+                    <div class="caption">
+                        <p class="text">Info Widget</p>
+                    </div>
+                </div>
+            </div>
+            <!--Fourth Row-->
+            <div class="row4">
+                <div class="col-sm-4">
+                    <img src="pug.jpg" class="card-img">
+                    <div class="caption">
+                        <p class="text">Rock Paper Scissor</p>
+                    </div>
+                </div>
+                <br>
+                <div class="col-sm-4">
 
-  <div class="container">
+                </div>
+            </div>
+            <!--Sidebar Card-->
 
-    <section id="main-bio">
-
-      <h2>About Me</h2>
-      <img src="https://www.incimages.com/uploaded_files/image/970x450/getty_505171962_326427.jpg">
-      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-
-    </section>
-
-  </div>
-
+            <!--Thambnail-->
 </body>
 
 </html>
